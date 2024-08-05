@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header">  
+            <img class="header__logo" src="./alura.svg" alt="logo alura">
+        </div>
+    </header>
+    <main>
+        <div class="main">
+        <div class="left">
+            <textarea id="digitarTexto" class="digitar__texto" placeholder="Digite o texto aqui"></textarea>
+            <div class="left__footer">
+            <img src="./exclamacao.svg" alt="ponto exclamacao">
+            <span class="left__info">Apenas letras minúsculas e sem acentos</span>
+            <div class="left__botao">
+            <button id="botaoCriptografar" class="botao__criptografar">Criptografar</button>
+            <button id="botaoDescriptografar"  class="botao__descriptografar">Descriptografar</button>
+            </div>
+            </div>
+        </div>
+        <div id="right" class="right ajustar">
+            <img id="boneco" class="boneco" src="./boneco.svg" alt="boneco">
+            <!--<div class="">
+            </div>-->
+            <textarea id="mensagemFinal" class="mensagem__final" placeholder="Nenhuma mensagem foi encontrada!"> </textarea> 
+            <p id="rightInfo" class="right__info">Digite o texto que deseja criptografar ou descriptografar.</p>
+            <button id="botaoCopiar" class="botao__copiar oculto">Copiar</button>
+            
+
+        </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="criadora">Create by 
+            <a href="https://github.com/JanainaDutton" target="_blank" class="usuaria">
+                Janaina Dutton
+            </a>
+        </p>
+        <div>
+            <a href="https://github.com/JanainaDutton" target="_blank">
+                <img class="links" src="./github.svg"/>
+            </a>
+            
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
